@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+
+# Env files
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+
+# Vite / build outputs
+dist/
