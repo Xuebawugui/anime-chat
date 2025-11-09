@@ -1,6 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 
-const API_URL = "http://localhost:3001/api/chat";
+const API_URL = import.meta.env.VITE_API_URL; // Vite
+// 或者 Next.js:
+// const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
 
 const CHARACTERS = [
   { name: "Naruto", description: "Energetic ninja style", avatar: "🍥" },
