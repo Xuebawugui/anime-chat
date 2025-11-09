@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL; // Vite
+const API_URL = import.meta.env.VITE_API_URL || "/api/chat"; // 本地或部署
+// Vite
 // 或者 Next.js:
 // const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
